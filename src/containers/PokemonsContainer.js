@@ -10,7 +10,7 @@ export function PokemonsContainer() {
 
   return (
     <div className="pokemons">
-      {pokemons && pokemons.map(pokemon => console.log(pokemon))}
+      {pokemons && pokemons.map(pokemon => JSON.stringify(pokemon))}
     </div>
   )
 }
