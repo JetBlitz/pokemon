@@ -11,9 +11,7 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-      <main>
-        <PokemonsContainer />
-      </main>
+      <PokemonsContainer />
     </ApolloProvider>
   );
 }
